@@ -80,9 +80,12 @@ h1 {
     top: 100%;
     width: 100%;
     height: 105%;
-    transition: all 0.5s;
-    cursor: url(./images/circle.png), auto;
+    transition: all 0.4s;
+    cursor: pointer;
 }
+/* .man{
+    cursor: url(./images/circle.png), auto;
+} */
 
 .home.up .man {
     top: 0;
