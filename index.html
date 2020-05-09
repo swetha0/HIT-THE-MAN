@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIT THE MAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>HIT THE MAN! </h1>
+    </div>
+    <div class="grid-container">
+        <div id="main">
+            <h3>INSTRUCTIONS</h3>
+            <ul>
+                <li>Target the person coming out of Home.</li>
+                <li>Every hit will earn 1 point.</li>
+                <li>The Time for every level will be decreased with increase in levels.</li>
+                <li>In the Next Level the timer will be decrease.</li>
+                <li>All the best!</li>
+            </ul>
+        </div>
+        <div class="game">
+            <div class="home home1">
+                <div class="man"></div>
+            </div>
+
+            <div class="home home2">
+                <div class="man"></div>
+            </div>
+
+            <div class="home home3">
+                <div class="man"></div>
+            </div>
+
+            <div class="home home4">
+                <div class="man"></div>
+            </div>
+
+            <div class="home home5">
+                <div class="man"></div>
+            </div>
+
+            <div class="home home6">
+                <div class="man"></div>
+            </div>
+            <div class="home home7">
+                <div class="man"></div>
+            </div>
+            <div class="home home8">
+                <div class="man"></div>
+            </div>
+            <div class="home home9">
+                <div class="man"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="time">
+                <div id="timer">Timer : 00</div>
+            </div>
+            <div id="score">
+                <p>Score : <span class="score">0</span></p>
+            </div>
+        </div>
+    </div>
+    <div id="buttons">
+        <button onclick="reload()" id="button" style="visibility: hidden;">Play Again</button>
+        <button onclick="startGame()" id="btn-start">START</button>
+        <button onclick="nextLevel()" id="btn-next">Next Level</button>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
